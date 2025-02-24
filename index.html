@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Library</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Library</h1>
+
+    
+
+    <!-- "New Book" Button -->
+    <button id="newBookBtn">Add New Book</button>
+
+    <!-- Book Form (Hidden Initially) -->
+    <form id="bookForm" style="display: none;">
+        <input type="text" id="title" placeholder="Title" required>
+        <input type="text" id="author" placeholder="Author" required>
+        <input type="number" id="pages" placeholder="Pages" required>
+        <div class="read-container">
+            <input type="checkbox" id="read">
+            <label for="read">Read</label>
+        </div>        
+        <button type="submit">Add Book</button>
+    </form>
+
+    <!-- Book Library Display -->
+    <div class="library"></div>
+
+    <script src="script.js"></script>
+
+    <span class="creatids">Made by Samama Karim || Odin Project</span>
+</body>
+</html>
