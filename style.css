@@ -10,6 +10,7 @@ body {
 
 /* Buttons */
 button {
+    margin-top: 7px;
     background-color: #ff9800;
     border: none;
     padding: 12px 20px;
@@ -106,7 +107,7 @@ button:hover {
     display: flex;
     align-items: center;
     font-size: 14px;
-    margin-top: 10px;
+    margin-left: -160px;
 }
 
 #bookForm input[type="checkbox"] {
