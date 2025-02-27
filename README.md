@@ -1,5 +1,11 @@
 # Project-Library
- Using Objects and Object Constructors and Prototyping we need to make a library that add , remove , check status and set the number of pages of the book
+## Organizing JavaScript Code Using Objects and Object Constructors and Prototyping
+ 
+### Features:
+- **Add Books:** Easily add new books to the library.
+- **Remove Books:** Delete books from the collection when needed.
+- **Check Status:** Track whether a book has been read or is still unread.
+- **Set Page Count:**  Define and update the number of pages for each book.
 
  Here is the picture of what I made
 
