@@ -1,16 +1,19 @@
 const myLibrary = [];
 
-function Book(title, author, pages, read) {
-    this.title = title;
-    this.author = author;
-    this.pages = pages;
-    this.read = read;
+// Convert Book constructor to a class
+class Book {
+    constructor(title, author, pages, read) {
+        this.title = title;
+        this.author = author;
+        this.pages = pages;
+        this.read = read;
+    }
+    
+    // Toggle Read Status (Method)
+    toggleRead() {
+        this.read = !this.read;
+    }
 }
-
-// Toggle Read Status (Prototype)
-Book.prototype.toggleRead = function() {
-    this.read = !this.read;
-};
 
 // Add New Book
 function addBookToLibrary(title, author, pages, read) {
@@ -100,4 +103,3 @@ addBookToLibrary("To Kill a Mockingbird", "Harper Lee", 281, false);
 
 // Initial Display
 displayBooks();
- 
